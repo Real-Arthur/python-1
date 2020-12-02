@@ -14,4 +14,4 @@ params = dict(
 
 resp = requests.get(url=url, params=params)
 data = resp.json()
-print(data['results'][0]['original_title'])
+print(data['results'][0])
